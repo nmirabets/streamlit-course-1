@@ -1,5 +1,6 @@
 import streamlit as st
 
+# Page config
 st.set_page_config(
     page_title="Superhero Name Creator",
     layout="wide", # or wide
@@ -10,7 +11,7 @@ st.set_page_config(
 ########################### USER INPUTS ##################################
 
 # User inputs
-st.title("What's Your Superhero Name? 🦸‍♂️🦸‍♀️")
+st.title("What's Your Superhero Supername? 🦸‍♂️🦸‍♀️")
 
 # Inputs for superhero name
 favorite_color = st.text_input("", placeholder="What's your favorite color?")
